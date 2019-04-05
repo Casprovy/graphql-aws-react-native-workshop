@@ -1,0 +1,36 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "rnappsyncapp-20190405101623-authRole",
+            "UnauthRoleArn": "arn:aws:iam::038909035013:role/rnappsyncapp-20190405101623-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::038909035013:role/rnappsyncapp-20190405101623-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "rnappsyncapp-20190405101623-deployment",
+            "UnauthRoleName": "rnappsyncapp-20190405101623-unauthRole",
+            "StackName": "rnappsyncapp-20190405101623",
+            "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/rnappsyncapp-20190405101623/19b1d6f0-577b-11e9-a48d-061d64a5b024"
+        },
+        "categories": {
+            "auth": {
+                "cognito08097d58": {}
+            }
+        }
+    },
+    "apiupdate": {
+        "awscloudformation": {
+            "AuthRoleName": "rnappsyncapp-20190405145017-authRole",
+            "UnauthRoleArn": "arn:aws:iam::038909035013:role/rnappsyncapp-20190405145017-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::038909035013:role/rnappsyncapp-20190405145017-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "rnappsyncapp-20190405145017-deployment",
+            "UnauthRoleName": "rnappsyncapp-20190405145017-unauthRole",
+            "StackName": "rnappsyncapp-20190405145017",
+            "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/rnappsyncapp-20190405145017/5d9afba0-57a1-11e9-835e-063afe18f80a"
+        },
+        "categories": {
+            "auth": {
+                "cognito08097d58": {}
+            }
+        }
+    }
+}

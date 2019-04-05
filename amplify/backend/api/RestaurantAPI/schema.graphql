@@ -1,0 +1,19 @@
+type Restaurant @model {
+  id: ID!
+  clientId: String
+  name: String!
+  type: String
+  description: String!
+  city: String!
+  service: String
+}
+
+type ModelRestaurantConnection {
+	items: [Restaurant]
+	nextToken: String
+}
+
+type Query {
+  listAllRestaurants(limit: Int, nextToken: String): ModelRestaurantConnection
+}
+
