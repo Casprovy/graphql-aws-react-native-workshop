@@ -118,12 +118,15 @@ onChange = (key, value) => {
           value={this.state.city}
         />
         <Button onPress={this.createRestaurant} title='Create Restaurant' />
+        <ScrollView>
     {this.state.restaurants.map((restaurant, index) => (
-      <ScrollView style={styles.restaurant} key={index}>
+      <View style={styles.restaurant} key={index}>
         <Text style={styles.instructions}>{restaurant.name}</Text>
         <Text style={styles.instructions}>{restaurant.description}</Text>
         <Text style={styles.instructions}>{restaurant.city}</Text>
-        </ScrollView>))}
+        </View>
+        ))}
+        </ScrollView>
       </View>
     )
   }
